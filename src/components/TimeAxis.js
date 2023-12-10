@@ -10,7 +10,6 @@
 
 import _ from "underscore";
 import merge from "merge";
-import moment from "moment";
 import React from "react";
 import ReactDOM from "react-dom"; // eslint-disable-line
 import PropTypes from "prop-types";
@@ -26,8 +25,6 @@ import {
   utcYear,
 } from "d3-time";
 import { timeFormat } from "d3-time-format";
-
-import "moment-duration-format";
 
 function scaleAsString(scale) {
   return `${scale.domain().toString()}-${scale.range().toString()}`;

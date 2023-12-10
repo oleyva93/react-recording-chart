@@ -14,8 +14,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { timeFormat } from "d3-time-format";
 
-import "moment-duration-format";
-
 import ValueList from "./ValueList";
 import Label from "./Label";
 
